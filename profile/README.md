@@ -7,7 +7,7 @@ Octaview is a B2B SaaS platform designed to revolutionize the hiring process. It
 ![Alt text](https://octaview-data.s3.ap-south-1.amazonaws.com/images/diagram-export-3-6-2025-9_53_04-PM.png)
 
 ### CI/CD Deployment Pipeline
-![Alt text](https://octaview-data.s3.ap-south-1.amazonaws.com/images/diagram-export-3-11-2025-5_47_41-PM.png)
+![Alt text](https://octaview-data.s3.ap-south-1.amazonaws.com/images/diagram-export-3-11-2025-5_55_01-PM.png)
 
 
 ## Key Features:
