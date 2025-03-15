@@ -109,7 +109,7 @@ Octaview leverages Docker for containerization, ensuring consistent and reliable
 ## Multi-Cloud Architecture
 Octaview's architecture utilizes a multi-cloud approach, taking advantage of the strengths of different cloud providers:
 
-#### AWS: Used for hosting the naib express backend server and Yjs signaling server (EC2).
+#### AWS: Used for hosting the main Express backend server and Yjs signaling server (EC2) and S3 for static files.
 #### GCP: Used for running the Judge0 code execution environment (Compute Engine).
 #### Vercel: Used for deploying and scaling the frontend application.
 
