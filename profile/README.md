@@ -60,13 +60,29 @@ npm install octaview-library
 ```
 ### 2. Integrate the library into your website:
 ```
-import Octaview from 'octaview-library';
+import React from 'react';
+import OctaviewClient from 'octaview-client';
 
-// Initialize Octaview with your API key
-const octaview = new Octaview('YOUR_API_KEY');
+function App() {
+  const props = {
+    url: "http://localhost:3030/jobs",
+    background: "#f0f0f0",
+    textColor: "#000000",
+    buttonColor: "#007bff",
+    api: "YOUR_API_KEY", // Replace with your actual API key
+    userId: "YOUR_USER_ID"  // Replace with your actual user ID
+  };
 
-// Render the job application UI
-octaview.render('#octaview-container');
+  return (
+    <div>
+      <h1>Job Listings</h1>
+      <OctaviewClient {...props} />
+    </div>
+  );
+}
+
+export default App;
+
 ```
 ### 3. Configure API Key Authentication:
 Obtain your API key from the Octaview dashboard.
@@ -93,7 +109,7 @@ Octaview leverages Docker for containerization, ensuring consistent and reliable
 ## Multi-Cloud Architecture
 Octaview's architecture utilizes a multi-cloud approach, taking advantage of the strengths of different cloud providers:
 
-#### AWS: Used for hosting the Yjs signaling server (EC2) and storing static assets (S3).
+#### AWS: Used for hosting the naib express backend server and Yjs signaling server (EC2).
 #### GCP: Used for running the Judge0 code execution environment (Compute Engine).
 #### Vercel: Used for deploying and scaling the frontend application.
 
