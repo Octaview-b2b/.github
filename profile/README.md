@@ -120,7 +120,7 @@ Cost optimization: By selecting the most cost-effective services from different 
 Improved performance: By distributing workloads across different regions and providers, Octaview can improve application performance and reduce latency.
 
 ## License:
-  [Your License]
+  
 
 ## Support:
-For any questions or support, please contact us at [mammen999@gmail.com].
+For any questions or support, please contact us at mammen999@gmail.com.
